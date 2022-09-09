@@ -1,0 +1,9 @@
+com/workshop/voting_intention/model/repository/UserRepository.class
+com/workshop/voting_intention/VotingIntentionApplication.class
+com/workshop/voting_intention/api/dto/UserDTO$UserDTOBuilder.class
+com/workshop/voting_intention/service/UserService.class
+com/workshop/voting_intention/api/dto/UserDTO.class
+com/workshop/voting_intention/model/entity/User.class
+com/workshop/voting_intention/api/resource/UserResource.class
+com/workshop/voting_intention/service/impl/UserServiceImpl.class
+com/workshop/voting_intention/model/entity/User$UserBuilder.class
