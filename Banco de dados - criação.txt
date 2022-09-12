@@ -1,0 +1,31 @@
+CREATE DATABASE intencaovoto;
+
+CREATE SCHEMA voto;
+
+CREATE TABLE voto.usuario
+(
+  id bigserial NOT NULL PRIMARY KEY,
+  voto integer NOT NULL,
+  idade integer NOT NULL,
+  cidade character varying(100),
+  estado character varying(100),
+  FOREIGN KEY (voto) REFERENCES voto.candidato (id)
+);
+
+insert into voto.usuario (id, cidade, estado, idade, voto) values (default, 'Rib Preto', 'SP', 23, 1);
+insert into voto.usuario (id, cidade, estado, idade, voto) values (default, 'Rib Preto', 'SP', 25, 2);
+insert into voto.usuario (id, cidade, estado, idade, voto) values (default, 'Rib Preto', 'SP', 26, 1);
+
+select * from voto.user
+
+
+CREATE TABLE voto.candidato
+(
+  id bigserial NOT NULL PRIMARY KEY,
+  numero integer NOT NULL,
+  nome character varying(100)
+);
+
+insert into voto.candidato (id, numero, nome) values (default, 13, 'XXXXX');
+insert into voto.candidato (id, numero, nome) values (default, 14, 'yyyy');
+insert into voto.candidato (id, numero, nome) values (default, 15, 'zzzzzz');
