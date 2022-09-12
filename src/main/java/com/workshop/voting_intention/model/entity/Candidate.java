@@ -1,8 +1,6 @@
 package com.workshop.voting_intention.model.entity;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -14,27 +12,25 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "usuario", schema = "voto")
+@Table(name = "candidato", schema = "voto")
 @Builder
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
-
+public class Candidate {
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "voto")
-    private Long voto;
+    @Column(name = "numero")
+    private Long numero;
 
-    @Column(name = "idade")
-    private Integer idade;
+    @Column(name = "nome")
+    private String nome;
 
-    @Column(name = "cidade")
-    private String cidade;
-
-    @Column(name = "estado")
-    private String estado;
+    @Column(name = "quantidade")
+    private Long quantidade;
+    @Column(name = "total_votos")
+    private Long totalVotos;
 }

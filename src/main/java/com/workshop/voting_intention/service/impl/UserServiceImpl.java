@@ -3,12 +3,9 @@ package com.workshop.voting_intention.service.impl;
 import com.workshop.voting_intention.dao.UserDao;
 import com.workshop.voting_intention.model.entity.User;
 import com.workshop.voting_intention.model.repository.UserRepository;
-import org.springframework.data.domain.Example;
-import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class UserServiceImpl implements UserDao {
