@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserDTO {
-    private Integer voto;
+    private Long voto;
     private Integer idade;
     private String cidade;
     private String estado;

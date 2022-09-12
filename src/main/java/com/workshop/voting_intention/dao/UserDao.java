@@ -11,5 +11,5 @@ public interface UserDao {
 
     List<User> buscarVotos();
 
-    Optional<User> obterPorId(Long id);
+    List<User> obterPorVoto(Long voto);
 }

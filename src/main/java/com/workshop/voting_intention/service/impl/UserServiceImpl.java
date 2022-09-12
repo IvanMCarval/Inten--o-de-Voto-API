@@ -31,7 +31,7 @@ public class UserServiceImpl implements UserDao {
     }
 
     @Override
-    public Optional<User> obterPorId(Long id) {
-        return repository.findById(id);
+    public List<User> obterPorVoto(Long voto) {
+        return repository.findByVoto(voto);
     }
 }

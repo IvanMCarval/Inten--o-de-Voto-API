@@ -26,7 +26,7 @@ public class User {
     private Long id;
 
     @Column(name = "voto")
-    private Integer voto;
+    private Long voto;
 
     @Column(name = "idade")
     private Integer idade;
