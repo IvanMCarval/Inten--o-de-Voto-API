@@ -23,7 +23,7 @@ public class CandidateController {
             Candidate candidatoSalvo = candidateDAO.salvarCandidato(candidate);
             return new ResponseEntity<>(candidatoSalvo, HttpStatus.CREATED);
         } catch (Exception e) {
-            return ResponseEntity.badRequest().body("Não foi possivel salvar sua intenção de voto");
+            return ResponseEntity.badRequest().body("Não foi possivel salvar o candidato");
         }
     }
 
