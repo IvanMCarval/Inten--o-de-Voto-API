@@ -9,7 +9,7 @@ public interface UserDao {
 
     User salvarUsuario(User usuario);
 
-    List<User> buscarVotos();
+    List<User> buscarUsuarios();
 
-    List<User> obterPorVoto(Long voto);
+    Optional<User> obterPorId(Long id);
 }

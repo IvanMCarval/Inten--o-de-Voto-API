@@ -1,4 +1,4 @@
-package com.workshop.voting_intention.service.impl;
+package com.workshop.voting_intention.dao.impl;
 
 import com.workshop.voting_intention.dao.UserDao;
 import com.workshop.voting_intention.model.entity.User;
@@ -6,13 +6,14 @@ import com.workshop.voting_intention.model.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
-public class UserServiceImpl implements UserDao {
+public class UserDAOImpl implements UserDao {
 
     private UserRepository repository;
 
-    public UserServiceImpl(UserRepository repository) {
+    public UserDAOImpl(UserRepository repository) {
         super();
         this.repository = repository;
     }
@@ -23,12 +24,12 @@ public class UserServiceImpl implements UserDao {
     }
 
     @Override
-    public List<User> buscarVotos() {
+    public List<User> buscarUsuarios() {
         return repository.findAll();
     }
 
     @Override
-    public List<User> obterPorVoto(Long voto) {
-        return repository.findByVoto(voto);
+    public Optional<User> obterPorId(Long id) {
+        return repository.findById(id);
     }
 }

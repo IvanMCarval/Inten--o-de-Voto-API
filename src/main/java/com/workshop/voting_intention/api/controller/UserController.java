@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/usuarios")
@@ -30,26 +31,26 @@ public class UserController {
     }
 
     @GetMapping
-    public ResponseEntity buscarVotos() {
+    public ResponseEntity buscarUsuarios() {
         try {
-            List<User> users = userDao.buscarVotos();
+            List<User> users = userDao.buscarUsuarios();
             return ResponseEntity.ok(users);
         } catch (Exception e) {
             return ResponseEntity.badRequest().body("Não foi possivel buscar os dados");
         }
     }
 
-    @GetMapping("{voto}")
-    public ResponseEntity obterVotos(@PathVariable("voto") Long voto) {
-        List<User> votos = userDao.obterPorVoto(voto);
+    @GetMapping("{id}")
+    public ResponseEntity obterVotos(@PathVariable("id") Long id) {
+        Optional<User> user = userDao.obterPorId(id);
 
         try {
-            if (votos.isEmpty()) {
-                return ResponseEntity.badRequest().body("Este candidato não foi encontrado em nosso banco de dados");
+            if (user.isEmpty() || user == null) {
+                return ResponseEntity.badRequest().body("Este usuario não foi encontrado em nosso banco de dados");
             }
-            return ResponseEntity.ok(votos);
+            return ResponseEntity.ok(user);
         } catch (Exception e ) {
-            return ResponseEntity.badRequest().body("Não foi possivel buscar os votos");
+            return ResponseEntity.badRequest().body("Não foi possivel buscar o usuario");
         }
     }
 }
