@@ -29,8 +29,7 @@ public class Candidate {
     @Column(name = "nome")
     private String nome;
 
-    @Column(name = "quantidade")
     private Long quantidade;
-    @Column(name = "total_votos")
-    private Long totalVotos;
+
+    private Long total_votos;
 }
