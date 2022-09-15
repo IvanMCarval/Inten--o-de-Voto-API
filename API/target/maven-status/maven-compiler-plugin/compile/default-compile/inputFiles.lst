@@ -1,0 +1,13 @@
+/home/ivanmastrange/Documentos/Spring/voting_intention/API/src/main/java/com/workshop/voting_intention/dao/impl/CandidateDAOImpl.java
+/home/ivanmastrange/Documentos/Spring/voting_intention/API/src/main/java/com/workshop/voting_intention/model/entity/Candidate.java
+/home/ivanmastrange/Documentos/Spring/voting_intention/API/src/main/java/com/workshop/voting_intention/dao/UserDao.java
+/home/ivanmastrange/Documentos/Spring/voting_intention/API/src/main/java/com/workshop/voting_intention/api/dto/CandiadateDTO.java
+/home/ivanmastrange/Documentos/Spring/voting_intention/API/src/main/java/com/workshop/voting_intention/api/controller/UserController.java
+/home/ivanmastrange/Documentos/Spring/voting_intention/API/src/main/java/com/workshop/voting_intention/model/repository/UserRepository.java
+/home/ivanmastrange/Documentos/Spring/voting_intention/API/src/main/java/com/workshop/voting_intention/model/repository/CandidateRepository.java
+/home/ivanmastrange/Documentos/Spring/voting_intention/API/src/main/java/com/workshop/voting_intention/VotingIntentionApplication.java
+/home/ivanmastrange/Documentos/Spring/voting_intention/API/src/main/java/com/workshop/voting_intention/dao/impl/UserDAOImpl.java
+/home/ivanmastrange/Documentos/Spring/voting_intention/API/src/main/java/com/workshop/voting_intention/api/dto/UserDTO.java
+/home/ivanmastrange/Documentos/Spring/voting_intention/API/src/main/java/com/workshop/voting_intention/model/entity/User.java
+/home/ivanmastrange/Documentos/Spring/voting_intention/API/src/main/java/com/workshop/voting_intention/dao/CandiadateDAO.java
+/home/ivanmastrange/Documentos/Spring/voting_intention/API/src/main/java/com/workshop/voting_intention/api/controller/CandidateController.java

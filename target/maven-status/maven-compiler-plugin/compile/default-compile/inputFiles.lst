@@ -1,7 +1,0 @@
-/home/ivanmastrange/Documentos/Spring/voting_intention/src/main/java/com/workshop/voting_intention/service/UserService.java
-/home/ivanmastrange/Documentos/Spring/voting_intention/src/main/java/com/workshop/voting_intention/model/repository/UserRepository.java
-/home/ivanmastrange/Documentos/Spring/voting_intention/src/main/java/com/workshop/voting_intention/api/dto/UserDTO.java
-/home/ivanmastrange/Documentos/Spring/voting_intention/src/main/java/com/workshop/voting_intention/model/entity/User.java
-/home/ivanmastrange/Documentos/Spring/voting_intention/src/main/java/com/workshop/voting_intention/api/resource/UserResource.java
-/home/ivanmastrange/Documentos/Spring/voting_intention/src/main/java/com/workshop/voting_intention/VotingIntentionApplication.java
-/home/ivanmastrange/Documentos/Spring/voting_intention/src/main/java/com/workshop/voting_intention/service/impl/UserServiceImpl.java
