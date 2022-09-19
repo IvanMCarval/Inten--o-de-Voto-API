@@ -1,6 +1,7 @@
-# Projeto Intenção de voto
+# Intenção de voto Api
 
-Repositorio para o codigo fonte de Back-end e Front-end Web e Mobile.
+Repositorio para o codigo fonte da api.
+Usado banco de dados postgresql.
 
 Grupo:
 Ana Flávia Alves Ferreira - RA: 832473
