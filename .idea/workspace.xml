@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63d9646f-88de-46d3-8cff-8f17401799c1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/workshop/voting_intention/VotingIntentionApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/VotingIntentionApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/VotingIntentionApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/api/controller/CandidateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/api/controller/CandidateController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/api/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/api/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/api/dto/CandiadateDTO$CandiadateDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/api/dto/CandiadateDTO$CandiadateDTOBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/api/dto/CandiadateDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/api/dto/CandiadateDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/api/dto/UserDTO$UserDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/api/dto/UserDTO$UserDTOBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/api/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/api/dto/UserDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/dao/CandiadateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/dao/CandiadateDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/dao/impl/CandidateDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/dao/impl/CandidateDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/dao/impl/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/dao/impl/UserDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/model/entity/Candidate$CandidateBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/model/entity/Candidate$CandidateBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/model/entity/Candidate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/model/entity/Candidate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/model/entity/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/model/entity/User$UserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/model/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/model/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/model/repository/CandidateRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/model/repository/CandidateRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/model/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/workshop/voting_intention/model/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
