@@ -12,4 +12,5 @@ import lombok.NoArgsConstructor;
 public class CandiadateDTO {
     private Long numero;
     private String nome;
+    private String imagem;
 }
