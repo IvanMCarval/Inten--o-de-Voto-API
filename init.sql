@@ -3,9 +3,9 @@ CREATE SCHEMA voto;
 CREATE TABLE voto.candidato
 (
   id bigserial NOT NULL PRIMARY KEY,
-  numero integer NOT NULL,
+  numero integer NOT NULL UNIQUE,
   nome character varying(100),
-  imagem text,
+  imagem text
 );
 
 CREATE TABLE voto.usuario

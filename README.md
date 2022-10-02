@@ -3,6 +3,11 @@
 Repositório para o código fonte da api.
 Usado banco de dados PostgreSQL.
 
+## Grupo
+Ana Flávia Alves Ferreira - RA: 832473 \
+Ivan Carvalho - RA: 767331 \
+Lorene Zorzetto Carniel - RA: 832401 \
+
 ## Usando com Maven (OpenJDK 19)
 
 Instale o OpenJDK 19 https://openjdk.org/install/
@@ -32,8 +37,3 @@ E inicie o container do Docker
 ```bash
 docker compose up
 ```
-
-Grupo:
-Ana Flávia Alves Ferreira - RA: 832473
-Ivan Carvalho - RA: 767331
-Lorene Zorzetto Carniel - RA: 832401

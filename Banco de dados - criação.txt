@@ -17,9 +17,9 @@ select * from voto.user
 CREATE TABLE voto.candidato
 (
   id bigserial NOT NULL PRIMARY KEY,
-  numero integer NOT NULL,
+  numero integer NOT NULL  UNIQUE,
   nome character varying(100),
-  imagem text,
+  imagem text
 );
 
 insert into voto.candidato (id, numero, nome, imagem) values (default, 12, 'Ciro Gomes (PDT)', 'https://eleicoes.poder360.com.br/media/fotos/FBR280001612393_div_j9D1MF6.jpg');
