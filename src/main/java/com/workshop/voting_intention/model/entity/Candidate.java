@@ -5,6 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.UniqueConstraint;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -34,5 +35,5 @@ public class Candidate {
 
     private Long quantidade;
 
-    private Long total_votos;
+    private Float total_votos;
 }
