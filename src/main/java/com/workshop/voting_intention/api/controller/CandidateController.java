@@ -54,7 +54,7 @@ public class CandidateController implements PersonFactory{
             }
             return ResponseEntity.ok(candidate);
         } catch (Exception e ) {
-            return ResponseEntity.badRequest().body("Não foi possivel buscar o usuario");
+            return ResponseEntity.badRequest().body("Não foi possivel buscar o candidato");
         }
     }
 }

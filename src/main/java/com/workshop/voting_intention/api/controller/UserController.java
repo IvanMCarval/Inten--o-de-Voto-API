@@ -1,6 +1,7 @@
 package com.workshop.voting_intention.api.controller;
 
 import com.workshop.voting_intention.api.dto.UserDTO;
+import com.workshop.voting_intention.bridge.UserBridge;
 import com.workshop.voting_intention.model.entity.User;
 import com.workshop.voting_intention.dao.UserDao;
 import com.workshop.voting_intention.factory.PersonFactory;
@@ -17,7 +18,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/usuarios")
 @RequiredArgsConstructor
-public class UserController implements PersonFactory{
+public class UserController implements PersonFactory, UserBridge{
     private final UserDao userDao;
     private final CandidateDAO candidateDao;
 
