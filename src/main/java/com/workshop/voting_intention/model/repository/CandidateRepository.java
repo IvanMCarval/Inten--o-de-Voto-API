@@ -7,6 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import java.util.List;
 
 public interface CandidateRepository extends JpaRepository<Candidate, Long> {
+
     String pricipalQuey = "select candidato.*, count(usuario.voto) as quantidade, CAST(CAST(count(usuario.voto) AS float) / CAST((select count(usuario.id) from voto.usuario) AS float) * 100 as NUMERIC(6,2)) AS total_votos from voto.candidato left join voto.usuario ON usuario.voto = candidato.id";
     @Query(
         value = pricipalQuey + " GROUP by candidato.id",

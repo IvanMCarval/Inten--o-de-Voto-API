@@ -15,7 +15,7 @@ CREATE TABLE voto.usuario
   idade integer NOT NULL,
   cidade character varying(100),
   estado character varying(100),
-  FOREIGN KEY (voto) REFERENCES voto.candidato (id)
+  FOREIGN KEY (voto) REFERENCES voto.candidato (numero)
 );
 
 insert into voto.candidato (id, numero, nome, imagem) values (default, 12, 'Ciro Gomes (PDT)', 'https://eleicoes.poder360.com.br/media/fotos/FBR280001612393_div_j9D1MF6.jpg');
