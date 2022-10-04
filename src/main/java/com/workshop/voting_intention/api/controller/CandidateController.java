@@ -46,9 +46,9 @@ public class CandidateController implements PersonFactory{
 
     @GetMapping("{id}")
     public ResponseEntity buscaPorId(@PathVariable("id") Long id) {
-        Optional<Candidate> candidate = candidateDAO.obterPorId(id);
 
         try {
+            Optional<Candidate> candidate = candidateDAO.obterPorId(id);
             if (candidate.isEmpty() || candidate == null) {
                 return ResponseEntity.badRequest().body("Este candidato não foi encontrado em nosso banco de dados");
             }
