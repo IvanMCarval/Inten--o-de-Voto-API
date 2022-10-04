@@ -5,6 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface CandidateRepository extends JpaRepository<Candidate, Long> {
 
@@ -23,4 +24,9 @@ public interface CandidateRepository extends JpaRepository<Candidate, Long> {
         value = "insert into voto.candidato (numero, nome, imagem) values (?,?,?)",
         nativeQuery = true)
     Candidate saveCustom(Long numero, String nome, String imagem);
+
+    @Query(
+        value = pricipalQuey + " where candidato.id=? GROUP by candidato.id",
+        nativeQuery = true)
+    Optional<Candidate> findById(Long id);
 }
